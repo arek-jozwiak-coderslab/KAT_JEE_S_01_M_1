@@ -3,6 +3,7 @@ package day4.files;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Main3 {
 
@@ -24,6 +25,7 @@ public class Main3 {
         }
         // zamykamy plik
         System.out.println("Koniec !!!");
+        scanner.close();
         out.close();
     }
 
