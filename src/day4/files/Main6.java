@@ -20,8 +20,6 @@ public class Main6 {
     }
 
     static void createDirectory(String fileName) throws IOException {
-        int i = 999;
-        String s = ""+i; 
         //towrzę obiekt klasy Path przy pomocy statycznej metody get kalsy Paths
         Path p = Paths.get(fileName);
         //jeżeli nie istnieje katalog
